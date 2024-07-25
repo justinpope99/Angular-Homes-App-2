@@ -17,7 +17,7 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Angular Homes App Setup](#setup)
-- [📷 Preview](#Preview)
+- [📷 Preview](#preview)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -117,7 +117,7 @@ In order to run this project you need:
 
 <br>
 
-## 📷 Preview <a name="Preview"></a>
+## 📷 Preview <a name="preview"></a>
 
 <br>
 <br>
