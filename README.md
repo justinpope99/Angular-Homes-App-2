@@ -33,7 +33,7 @@ In this project, I have created an Angular app that lists houses for rent and sh
 Some of these features are:
 - Angular Components
 - Property Binding
-- iterating Over Data With ngFor
+- Iterating Over Data With ngFor
 - Routing
 - Services and Dependency Injections
 - Form Groups and Form Controls
