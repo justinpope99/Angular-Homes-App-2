@@ -4,11 +4,15 @@ import { ActivatedRoute } from '@angular/router';
 import { HousingService } from '../housing.service';
 import { HousingLocation } from 'src/housinglocation';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { NgxMaskDirective, provideNgxMask } from 'ngx-mask';
 
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, NgxMaskDirective],
+  providers: [
+    provideNgxMask(),
+  ],
   template: `
     <p>
       <article>
@@ -36,6 +40,10 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
             <label for="email">Email</label>
             <input id="email" type="email" formControlName="email">
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="text" mask="(000) 000-0000" formControlName="phone">
+
             <button type="submit" class="primary">Apply Now</button>
           </form>
         </section>
